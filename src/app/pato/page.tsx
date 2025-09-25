@@ -36,7 +36,7 @@ export default function MobileApp() {
           </div>
         </Link>
 
-        <Link href="/convite" className={`${colors.yellow} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
+        <Link href="/cardapio" className={`${colors.yellow} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
           <div className='w-1/3 h-full flex items-center justify-center pt-2'>
             <Image width={width} height={height} src={"/images/cake.png"} alt="letter icon" className='w-20' />
           </div>
@@ -45,7 +45,7 @@ export default function MobileApp() {
           </div>
         </Link>
 
-        <Link href="/convite" className={`${colors.green} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
+        <Link href="/dresscode" className={`${colors.green} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
           <div className='w-1/3 h-full flex items-center scale-75 justify-center pt-2'>
             <Image width={width} height={height} src={"/images/dress.png"} alt="letter icon" className='w-20' />
           </div>
@@ -54,7 +54,7 @@ export default function MobileApp() {
           </div>
         </Link>
 
-        <Link href="/convite" className={`${colors.purple} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
+        <Link href="/games" className={`${colors.purple} scale-75 flex flex-row w-full max-w-72 h-20 overflow-clip px-2 rounded-full shadow-[0_8px_8px_rgba(0,0,0,0.4)] `}>
           <div className='w-1/3 h-full flex items-center justify-center pt-2'>
             <Image width={width} height={height} src={"/images/cake.png"} alt="letter icon" className='w-20' />
           </div>
