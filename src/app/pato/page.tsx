@@ -20,7 +20,7 @@ export default function MobileApp() {
 
   return (
     <main className={styles.mainContainer}>
-      <Link href='/' className='w-8 h-8 absolute top-0 left-0 text-6xl z-10 text-[#C2D191]' >
+      <Link href='/' className='w-8 h-8 absolute top-0 left-0 text-6xl z-20 text-[#C2D191]' >
         <Icon icon={'icon-park-solid:back'} />
       </Link >
 

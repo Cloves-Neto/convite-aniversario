@@ -17,7 +17,7 @@ export default function AnimatedText({ text }: AnimatedTextProps) {
   return (
 
     <motion.div
-      className="flex justify-center items-center flex-wrap gap-x-2"
+      className="flex justify-center items-center flex-wrap"
     >
       {words.map((word, wordIndex) => (
         <span key={wordIndex} className="inline-block whitespace-nowrap">
@@ -38,13 +38,13 @@ export default function AnimatedText({ text }: AnimatedTextProps) {
                     delay: currentDelay,
                   },
                 }}
-                className="inline-block text-4xl font-extrabold"
+                className="inline-flex text-6xl font-extrabold"
               >
                 {char === ' ' ? '\u00A0' : char}
               </motion.span>
             );
           })}
-          {wordIndex < words.length - 1 && <span className="inline-block">&nbsp;</span>}
+          {wordIndex < words.length - 1 && <span className="inline-flex">&nbsp;</span>}
         </span>
       ))
       }
