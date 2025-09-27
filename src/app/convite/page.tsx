@@ -8,7 +8,7 @@ export default function Convite() {
 
   return (
     <main className={styles.mainContainer + `flex flex-col`}>
-      <img alt='pato caminhando no convite' src={'/images/convite.jpg'} className='w-full h-screen object-fill' />
+      <img alt='pato caminhando no convite' src={'/pages/convite.jpg'} className='w-full h-screen object-fill' />
 
     <a href='/pato' className='w-8 h-8 absolute top-0 left-0 text-6xl text-[#C2D191]' >
         <Icon icon={'icon-park-solid:back'}/>
